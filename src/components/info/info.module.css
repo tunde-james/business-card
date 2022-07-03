@@ -3,24 +3,8 @@ a {
   text-decoration: none;
 }
 
-.profile {
-  background-color: var(--background-color);
-  width: 550px;
-  height: 868px;
-  margin-inline: auto;
-  padding-top: 44px;
-  padding-inline: 117px;
-}
-
-.profile .container {
-  background-color: var(--main-background);
-  width: min(100% - 0px, 317px);
-  margin-inline: auto;
-  border-radius: 10px 10px 0px 0px;
-}
-
 .img {
-  background-image: url('../../images/pexels-phil-nguyen.jpg');
+  background-image: url('../../images/blessing.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -34,26 +18,26 @@ a {
   text-align: center;
 }
 
-.container .profile__name {
+.profile__name {
   color: var(--header-color);
   font-size: var(--font-25-lg);
   font-weight: var(--font-bold);
   padding-top: 21px;
 }
 
-.container .profile__title {
+.profile__title {
   color: var(--accent-color);
   font-size: var(--font-12-sm);
 }
 
-.container .website__url {
+.website__url {
   display: block;
   color: var(--text-color);
-  font-size: var( --font-10-xs);
+  font-size: var(--font-10-xs);
   margin-top: 8.81px;
 }
 
-.container .email {
+.email {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -68,6 +52,6 @@ a {
 
 .email .email__text {
   margin-left: 8px;
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-medium);
   font-size: var(--font-14-sm2);
 }

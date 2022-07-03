@@ -3,13 +3,13 @@ import styles from './info.module.css'
 
 export default function Info() {
   return (
-    <header className={styles.profile}>
-      <div className={styles.container}>
+    <header>
+      <div>
         <div className={styles.img}></div>
-        <h1 className={styles.profile__name}>Tunde James</h1>
-        <p className={styles.profile__title}>Frontend Developer</p>
+        <h1 className={styles.profile__name}>Blessing Uduh</h1>
+        <p className={styles.profile__title}>Sales Executive</p>
         <a href="https://read.cv/tundejames20" className={styles.website__url}>
-          tundejames.website
+          buduh.website
         </a>
         <p>
           <a href="" className={styles.email}>

@@ -1,0 +1,15 @@
+.app__container {
+  background-color: var(--background-color);
+  width: 550px;
+  height: 868px;
+  margin-inline: auto;
+  padding-top: 44px;
+  padding-inline: 117px;
+}
+
+.card__container {
+  background-color: var(--main-background);
+  width: min(100% - 0px, 317px);
+  margin-inline: auto;
+  border-radius: 10px 10px 10px 10px;
+}

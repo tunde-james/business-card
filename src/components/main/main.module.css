@@ -1,0 +1,17 @@
+.main {
+  width: 247px;
+  margin-top: 32px;
+  margin-inline: auto;
+}
+
+.main__header {
+  font-size: var(--font-16-md);
+  font-weight: var(--font-bold);
+  color: var(--header-color);
+}
+
+.main__text {
+  font-size: var(--font-10-xs);
+  color: var(--text-color);
+  line-height: 1.5;
+}
