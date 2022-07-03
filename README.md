@@ -1,6 +1,6 @@
 ## Digital Business Card
 
-This is a digital business card desinged with React JS.
+This is a digital business card designed with React JS.
 
 # Getting Started with Vite App
 
